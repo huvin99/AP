@@ -28,7 +28,8 @@ public class MyGreeting extends Stage {
  final HBox pic = new HBox();
  final ImageView imv = new ImageView();
  Label labCountry = new Label("Choose the country:");
- String n = getName();
+ 
+ 
   
  countrybox.getItems().addAll(
      "Italy",
@@ -40,27 +41,28 @@ public class MyGreeting extends Stage {
  countrybox.setValue("");
  Button btnDone = new Button("Done");
  btnDone.setOnAction(e -> {
+ String n = txtName.getText()+" "+txtName2.getText();
+ String cu = (String) countrybox.getValue();
  MyParam.setName2(txtName2.getText());
  if(countrybox.getValue() =="Iran"){
  String musicFile = "./data/sayonara.mp3";
  Media sound = new Media(new File(musicFile).toURI().toString());
  MediaPlayer mdPlayer = new MediaPlayer(sound);
  mdPlayer.play();
- Contestant c = new Contestant("Iran",n);
+ 
  }
  if(countrybox.getValue()=="Poland"){
  String musicFile = "./data/Poland.wav";
  Media sound = new Media(new File(musicFile).toURI().toString());
  MediaPlayer mdPlayer = new MediaPlayer(sound);
  mdPlayer.play();
- Contestant c = new Contestant("Poland",n);
  }
  if(countrybox.getValue()=="Georgia"){
  String musicFile = "./data/Georgia.wav";
  Media sound = new Media(new File(musicFile).toURI().toString());
  MediaPlayer mdPlayer = new MediaPlayer(sound);
  mdPlayer.play();
- Contestant c = new Contestant("Georgia",n);
+
  }
  if(countrybox.getValue()=="Iran"){
  String musicFile = "./data/Iran.wav";
@@ -69,10 +71,10 @@ public class MyGreeting extends Stage {
  mdPlayer.play();
  }
  if(countrybox.getValue()=="Israel"){
-     Contestant c = new Contestant("Israel",n);
+     
  }
+ Contestant(cu,n);
  
- this.hide();
  });
  
  GridPane grid = new GridPane(); 
@@ -99,4 +101,54 @@ public class MyGreeting extends Stage {
  public String getCountry(){
      return (String) countrybox.getValue();
  }
+ public  void Contestant(String s,String n){
+        ImageView iv1 = new ImageView();
+        final Pane root = new Pane();
+        Label name = new Label(n);
+        this.setTitle("Contestant Information");
+        Button done = new Button("Done");
+         if(s == "Israel"){
+             String imagefile = "./data/Nepal.jpg";
+             Image img1 = new Image(new File(imagefile).toURI().toString());
+             iv1.setImage(img1);
+             
+         }
+         if(s=="Iran"){
+             String imagefile = "./data/Lihao.jpg";
+             Image img2 = new Image(new File(imagefile).toURI().toString());
+             
+             iv1.setImage(img2);
+         }
+         if(s=="Nepal"){
+             String imagefile = "./data/Afiq.jpg";
+             Image img3 = new Image(new File(imagefile).toURI().toString());
+             iv1.setImage(img3);
+         }
+         if(s=="Poland"){
+             String imagefile = "./data/Pravin.jpg";
+             Image img4 = new Image(new File(imagefile).toURI().toString()); 
+             iv1.setImage(img4);
+         }
+         if(s=="Georgia"){
+             String imagefile = "./data/Benny.jpg";
+             Image img5 = new Image(new File(imagefile).toURI().toString());
+             iv1.setImage(img5);
+         }
+         done.setOnAction(e ->{
+            this.hide(); 
+         });
+         done.setLayoutX(210); 
+         done.setLayoutY(500);
+         iv1.setFitHeight(200);
+         iv1.setFitWidth(200);
+         iv1.setLayoutX(150);
+         iv1.setLayoutY(100);
+         name.setLayoutX(210);
+         name.setLayoutY(350);
+         root.getChildren().add(iv1);
+         root.getChildren().add(name);
+         root.getChildren().add(done);
+         this.setScene(new Scene(root,500,600));
+         this.show();
+    }
 }

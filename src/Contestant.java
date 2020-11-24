@@ -4,12 +4,15 @@ import java.io.File;
 import javafx.geometry.Insets;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -24,16 +27,14 @@ import javafx.stage.Stage;
 public class Contestant extends Stage{
     public Contestant(String s,String n){
         ImageView iv1 = new ImageView();
-        Scene scene = new Scene(new Group(),500,300);
-        Group root = (Group)scene.getRoot();
-        GridPane grid = new GridPane();
+        final Pane root = new Pane();
         Label name = new Label(n);
+        Button done = new Button("Done");
          if(s == "Israel"){
              String imagefile = "./data/Nepal.jpg";
              Image img1 = new Image(new File(imagefile).toURI().toString());
              iv1.setImage(img1);
-             iv1.setFitHeight(100);
-             iv1.setFitWidth(100);
+             
          }
          if(s=="Iran"){
              String imagefile = "./data/Lihao.jpg";
@@ -56,13 +57,21 @@ public class Contestant extends Stage{
              Image img5 = new Image(new File(imagefile).toURI().toString());
              iv1.setImage(img5);
          }
-         grid.setVgap(4);
-         grid.setHgap(10); 
-         grid.setPadding(new Insets(5,5,5,5));
-         grid.add(iv1,1,0);
-         grid.add(name,2,0);
-         root.getChildren().add(grid);
-         this.setScene(scene);
+         done.setOnAction(e ->{
+            this.hide(); 
+         });
+         done.setLayoutX(210); 
+         done.setLayoutY(500);
+         iv1.setFitHeight(200);
+         iv1.setFitWidth(200);
+         iv1.setLayoutX(150);
+         iv1.setLayoutY(100);
+         name.setLayoutX(210);
+         name.setLayoutY(350);
+         root.getChildren().add(iv1);
+         root.getChildren().add(name);
+         root.getChildren().add(done);
+         this.setScene(new Scene(root,500,600));
          this.show();
     }
 }
