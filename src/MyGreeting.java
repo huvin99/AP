@@ -28,39 +28,48 @@ public class MyGreeting extends Stage {
  final HBox pic = new HBox();
  final ImageView imv = new ImageView();
  Label labCountry = new Label("Choose the country:");
+ String n = getName();
   
  countrybox.getItems().addAll(
      "Italy",
       "Poland",
       "Georgia",
       "Israel",
-      "Germany"
+      "Iran"
  );
  countrybox.setValue("");
  Button btnDone = new Button("Done");
  btnDone.setOnAction(e -> {
  MyParam.setName2(txtName2.getText());
- if(countrybox.getValue() =="Italy"){
+ if(countrybox.getValue() =="Iran"){
  String musicFile = "./data/sayonara.mp3";
  Media sound = new Media(new File(musicFile).toURI().toString());
  MediaPlayer mdPlayer = new MediaPlayer(sound);
  mdPlayer.play();
+ Contestant c = new Contestant("Iran",n);
  }
  if(countrybox.getValue()=="Poland"){
  String musicFile = "./data/Poland.wav";
  Media sound = new Media(new File(musicFile).toURI().toString());
  MediaPlayer mdPlayer = new MediaPlayer(sound);
  mdPlayer.play();
+ Contestant c = new Contestant("Poland",n);
  }
  if(countrybox.getValue()=="Georgia"){
  String musicFile = "./data/Georgia.wav";
  Media sound = new Media(new File(musicFile).toURI().toString());
  MediaPlayer mdPlayer = new MediaPlayer(sound);
  mdPlayer.play();
- GridPane grid1 = new GridPane(); 
- grid1.setVgap(4); 
- grid1.setHgap(10);
- grid1.setPadding(new Insets(5,5,5,5));
+ Contestant c = new Contestant("Georgia",n);
+ }
+ if(countrybox.getValue()=="Iran"){
+ String musicFile = "./data/Iran.wav";
+ Media sound = new Media(new File(musicFile).toURI().toString());
+ MediaPlayer mdPlayer = new MediaPlayer(sound);
+ mdPlayer.play();
+ }
+ if(countrybox.getValue()=="Israel"){
+     Contestant c = new Contestant("Israel",n);
  }
  
  this.hide();
