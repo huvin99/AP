@@ -1,0 +1,5 @@
+1:C:Where is Georgia located in? :Europe:Asia:United States
+2:A:What is the capital of Georgia? Tbilisi: Barcelona:US
+3:B:Where is this place in the image below?800px-Tbilisi,_Georgia_—_View_of_Tbilisi.jpg:Tbilisi:China:India
+4:A:Who is the President of Georgia?PresidentofGeorgia.jpg:Donald_Trump_official_portrait.jpg:1200px-Volodymyr_Zelensky_Official_portrait.jpg
+5:B:How many population are there in Georgia?3M:5M:8M

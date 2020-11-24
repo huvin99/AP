@@ -1,0 +1,6 @@
+5
+1:C:Where is Iran located in?:Africa:South America:Asia:Europe
+2:D:What is the capital of Iran?:New Delhi:Beijing:Seoul:Tehran
+3:C:Which is the landmark of Iran?:Konoha.jpg:Taj_Mahal.jpg:Imam_Reza_Holy_Shrine.jpg:Temple_of_Heaven.jpg
+4:A:Which one is the president of Iran?:President_of_Iran.jpg:President_of_India.jpg:President_of_Malaysia.jpg:Trump.jpg
+5:C:How many people are there in Iran:5M:8M:83M:100M

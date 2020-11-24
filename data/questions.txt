@@ -1,0 +1,16 @@
+30
+2:A:Which is the capital of Nepal?:Nepal.jpg:Kathmandu:Bandar Seri Begawan:Kuala Lumpur:Singapore
+2:B:Which one of the following is the name of this Nepal cuisine?:dal-phat.jpg:Momo:Sel Roti:Dal Phat:Newari
+2:C:Choose the following correct name for Prime Minister of Nepal?:president-nepal.jpg:Joe Biden:Donald Trump:Bidya Devi Bhandari:Selena Gomez
+1:C:Which one is the national flower of Nepal?:Bunga Raya:Roses:Rhododendron:Chrysanthemum
+2:C:Which one of the following countries is the national flag belongs to?:nepal-flag.jpg:USA:Singapore:Nepal:Malaysia
+1:C:Where is Iran located in?:Africa:South America:Asia:Europe
+1:D:What is the capital of Iran?:New Delhi:Beijing:Seoul:Tehran
+2:C:Which is the landmark of Iran?:Konoha.jpg:Taj_Mahal.jpg:Imam_Reza_Holy_Shrine.jpg:Temple_of_Heaven.jpg
+2:A:Which one is the president of Iran?:President_of_Iran.jpg:President_of_India.jpg:President_of_Malaysia.jpg:Trump.jpg
+1:C:How many people are there in Iran:5M:8M:83M:100M
+1:C:Where is Georgia located in? :Europe:Asia:United States
+1:A:What is the capital of Georgia? Tbilisi: Barcelona:US
+2:B:Where is this place in the image below?800px-Tbilisi,_Georgia_—_View_of_Tbilisi.jpg:Tbilisi:China:India
+2:A:Who is the President of Georgia?PresidentofGeorgia.jpg:Donald_Trump_official_portrait.jpg:1200px-Volodymyr_Zelensky_Official_portrait.jpg
+1:B:How many population are there in Georgia?3M:5M:8M
