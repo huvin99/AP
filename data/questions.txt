@@ -1,26 +1,31 @@
-25
+30
 2:A:Which is the capital of Nepal?:Nepal.jpg:Kathmandu:Bandar Seri Begawan:Kuala Lumpur:Singapore
 2:B:Which one of the following is the name of this Nepal cuisine?:dal-phat.jpg:Momo:Sel Roti:Dal Phat:Newari
 2:C:Choose the following correct name for Prime Minister of Nepal?:president-nepal.jpg:Joe Biden:Donald Trump:Bidya Devi Bhandari:Selena Gomez
 1:C:Which one is the national flower of Nepal?:Bunga Raya:Roses:Rhododendron:Chrysanthemum
 2:C:Which one of the following countries is the national flag belongs to?:nepal-flag.jpg:USA:Singapore:Nepal:Malaysia
-1:C:Where is Iran located in?:Africa:South America:Asia:Europe
-1:D:What is the capital of Iran?:New Delhi:Beijing:Seoul:Tehran
-2:C:Which is the landmark of Iran?:Konoha.jpg:Taj_Mahal.jpg:Imam_Reza_Holy_Shrine.jpg:Temple_of_Heaven.jpg
-2:A:Which one is the president of Iran?:President_of_Iran.jpg:President_of_India.jpg:President_of_Malaysia.jpg:Trump.jpg
-1:C:How many people are there in Iran:5M:8M:83M:100M
-1:C:Which is the capital of Israel?:Mecca:Nazareth:Jerusalem:Haifa
-1:D:Which is the main religion of the population of Israel?:Samaritanism:Christian:Muslim:Jewish
-1:A:Which is one of the tourist attractions in Israel?:Sea of Galilee:The Great Wall:Chillon Castle:Giza Necropolis
-2:A:What is the official language of Israel?:religion.png:Hebrew:Sepanish:Zulu:Konkani
-1:A:Which of the following is one of the most famous food in Israel?:Tahini:Samosa:Mahshi:Ribollita
-1:C:Where is Georgia located in? :Europe:Asia:United States
-1:A:What is the capital of Georgia? Tbilisi: Barcelona:US
-2:B:Where is this place in the image below?800px-Tbilisi,_Georgia_—_View_of_Tbilisi.jpg:Tbilisi:China:India
-2:A:Who is the President of Georgia?PresidentofGeorgia.jpg:Donald_Trump_official_portrait.jpg:1200px-Volodymyr_Zelensky_Official_portrait.jpg
-1:B:How many population are there in Georgia?3M:5M:8M
 1:B:Which is the capital of Poland?:Lublin:Warsaw:Madrid:America
 1:D:87% percent of Poles identify themselves as?:Atheist:Orthodox Jewish:Protestant:Roman Catholic
 2:C:What is this national dish of Poland called?:Bigos.jpg:Pizza:Soup:Bigos Stew:Cake
 1:C:What is the most popular sport in Poland?:Basketball:Baseball:Football:Tennis
 3:C:Which one of these flags represents the Poland flags?:Germany.png:Malaysia.jpg:Poland.png:France.png
+1:C:Which is the capital of Israel?:Mecca:Nazareth:Jerusalem:Haifa
+1:D:Which is the main religion of the population of Israel?:Samaritanism:Christian:Muslim:Jewish
+1:A:Which is one of the tourist attractions in Israel?:Sea of Galilee:The Great Wall:Chillon Castle:Giza Necropolis
+2:A:What is the official language of Israel?:religion.png:Hebrew:Sepanish:Zulu:Konkani
+1:A:Which of the following is one of the most famous food in Israel?:Tahini:Samosa:Mahshi:Ribollita
+3:D:Which one is NOT a famous Irish actor?:ln.png:cm.png:mf.png:ws.png
+1:A:Which one of the following last names is considered Irish?:O’Brien:Smith:Miller:Oliver
+1:C:What day is St. Patricks day?:1st April:11th November:17th March:25th March 
+2:C:What is the most popular Irish sport?:gf.png:Football:Rugby:Gaelic Football:Basketball 
+2:C:What is the name of this building?:cc.png:St. Patrick Cathedral:Notre Dame Cathedral:Cobh Cathedral:Eiffel Tower 
+2:C:Mad Canuck is a tower found in Iraq. What is this type of tower called?:mc.jpg:Pillar:Obelisk:Minaret:Spire
+1:B:Who was Iraq’s most famous dictator?:Abdul Salam Arif:Saddam Hussein:Jalal Talabani:Fuad Masum 
+1:A:What is the national language of Iraq?:Arabic , Kurdish:Arabic, Persian:Pashto , Hebrew:Kurdish , Turkmen 
+3:C:Which of the below is the ruins of Babylon?:temple.jpg:empire.jpg:iraq.jpg:parthenon.jpg
+2:C:What specific type of monument was this called?:ziggurat.jpg:Minaret:Sphinx:Ziggurat:Obelisk
+3:A:Which of the options is Japan’s traditional costume?:japanese.jpg:chinese.jpg:korean.jpg:malay.jpg
+1:C:What is the highest mountain in Japan?:Japanese Alps:Mount Hijiri:Mount Fuji:Mount Tate
+2:D:What is the name of this flower?:sakura.png:Japanese Buttercup:Hydrangea:Chrysanthemum:Cherry blossom 
+1:A:What is Japan’s national sport?:Sumo:Baseball:Judo:Soccer 
+2:C:Japan has 4 main islands. Name the northernmost island in Japan.:Hokkaido.png:Shikoku:Honshu:Hokkaido:Kyushu
