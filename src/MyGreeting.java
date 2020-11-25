@@ -25,14 +25,13 @@ public class MyGreeting extends Stage {
  Label L_name = new Label("Last Name:");
  txtName = new TextField();
  txtName2 = new TextField();
- final HBox pic = new HBox();
  final ImageView imv = new ImageView();
  Label labCountry = new Label("Choose the country:");
  
  
   
  countrybox.getItems().addAll(
-     "Italy",
+     "Nepal",
       "Poland",
       "Georgia",
       "Israel",
@@ -44,7 +43,7 @@ public class MyGreeting extends Stage {
  String n = txtName.getText()+" "+txtName2.getText();
  String cu = (String) countrybox.getValue();
  MyParam.setName2(txtName2.getText());
- if(countrybox.getValue() =="Iran"){
+ if(countrybox.getValue() =="Nepal"){
  String musicFile = "./data/sayonara.mp3";
  Media sound = new Media(new File(musicFile).toURI().toString());
  MediaPlayer mdPlayer = new MediaPlayer(sound);

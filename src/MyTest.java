@@ -24,6 +24,7 @@ public class MyTest extends Application {
  private MyGreeting winGreeting;
  private MyFarewell winFarewell;
  private LinkedList<Question> quesList = new LinkedList<Question>();
+ private LinkedList<Question> ansList = new LinkedList<Question>();
 
  public void start(Stage mainStage) {
  mainStage.setTitle("Knowledge Test 1");
@@ -98,6 +99,7 @@ labQues = new Label("");
  quesList.get(activeQ-1).setSelected(0, true);
  quesList.get(activeQ-1).setSelected(1, false);
  quesList.get(activeQ-1).setSelected(2, false);
+ 
  });
  radChoice2.setOnAction(e -> {
  quesList.get(activeQ-1).setSelected(0, false);
